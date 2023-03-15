@@ -1,0 +1,23 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="Typos">Homework1</string>
+    <string name="calculater_c">Ｃ</string>
+    <string name="calculater_ce">CE</string>
+    <string name="calculater_delete">&lt;</string>
+    <string name="calculater_divide">/</string>
+    <string name="calculater_7">7</string>
+    <string name="calculater_8">8</string>
+    <string name="calculater_9">9</string>
+    <string name="calculater_multiple">x</string>
+    <string name="calculater_4">4</string>
+    <string name="calculater_5">5</string>
+    <string name="calculater_6">6</string>
+    <string name="calculater_1">1</string>
+    <string name="calculater_2">2</string>
+    <string name="calculater_3">3</string>
+    <string name="calculater_0">0</string>
+    <string name="calculater_dot">.</string>
+    <string name="calculater_equal">=</string>
+    <string name="calculater_plus">+</string>
+    <string name="calculater_sub">-</string>
+    <string name="calculater_enter_formula">0</string>
+</resources>

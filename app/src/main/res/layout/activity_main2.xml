@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_weight="0"
+        android:background="#EAEAEA"
+        android:gravity="center|end"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/calculater_enter_formula" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="0"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_c"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#D6D6D6" />
+
+            <Button
+                android:id="@+id/button3"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_ce"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button2"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_delete"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button4"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_divide"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button5"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_7"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button6"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_8"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button7"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_9"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button8"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_multiple"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/button9"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_4"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button10"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_5"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button11"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_6"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+
+            <Button
+                android:id="@+id/button12"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_sub"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="116dp"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="281.5dp"
+                android:layout_height="match_parent"
+                android:layout_weight="60"
+                android:orientation="vertical"
+                android:paddingTop="8dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button52"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="88.5dp"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#CECECE"
+                        android:text="@string/calculater_1"
+                        android:textColor="#FFFFFF"
+                        app:rippleColor="#FAFAFA" />
+
+                    <Button
+                        android:id="@+id/button54"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="88.5dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#CECECE"
+                        android:text="@string/calculater_2"
+                        android:textColor="#FFFFFF"
+                        app:rippleColor="#FAFAFA" />
+
+                    <Button
+                        android:id="@+id/button55"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="88.5dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#CECECE"
+                        android:text="@string/calculater_3"
+                        android:textColor="#FFFFFF"
+                        app:rippleColor="#FAFAFA" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:gravity="bottom"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/button46"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="50dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#CECECE"
+                        android:paddingLeft="0dp"
+                        android:paddingTop="0dp"
+                        android:paddingRight="0dp"
+                        android:paddingBottom="0dp"
+                        android:text="@string/calculater_0"
+                        android:textColor="#FFFFFF"
+                        app:rippleColor="#FAFAFA" />
+
+                    <Button
+                        android:id="@+id/button47"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="88.5dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#CECECE"
+                        android:text="@string/calculater_dot"
+                        android:textColor="#FFFFFF"
+                        app:rippleColor="#FAFAFA" />
+
+                    <Button
+                        android:id="@+id/button48"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_width="88.5dp"
+                        android:layout_height="50dp"
+                        android:layout_marginStart="8dp"
+                        android:layout_weight="1"
+                        android:backgroundTint="#CECECE"
+                        android:text="@string/calculater_equal"
+                        android:textColor="#FFFFFF"
+                        app:rippleColor="#FAFAFA" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/button32"
+                style="?android:attr/buttonBarButtonStyle"
+                android:layout_width="88.5dp"
+                android:layout_height="108dp"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:backgroundTint="#CECECE"
+                android:text="@string/calculater_plus"
+                android:textColor="#FFFFFF"
+                app:rippleColor="#FAFAFA" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

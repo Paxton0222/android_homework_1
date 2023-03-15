@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/button15"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_multiple"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/button14"
+        app:layout_constraintTop_toBottomOf="@+id/button10"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button10"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_divide"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button7"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_c"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button8"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_ce"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button7"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button9"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_delete"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button8"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button11"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_7"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button16"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_4"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/button11"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button21"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_1"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/button16"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button29"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_0"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toStartOf="@+id/textView5"
+        app:layout_constraintTop_toBottomOf="@+id/button21"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button31"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_dot"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button29"
+        app:layout_constraintTop_toBottomOf="@+id/button24"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button34"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_equal"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button31"
+        app:layout_constraintTop_toBottomOf="@+id/button25"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button24"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_2"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button21"
+        app:layout_constraintTop_toBottomOf="@+id/button18"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button25"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_3"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button24"
+        app:layout_constraintTop_toBottomOf="@+id/button19"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button27"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="108dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_plus"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/button25"
+        app:layout_constraintTop_toBottomOf="@+id/button20"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button18"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_5"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button16"
+        app:layout_constraintTop_toBottomOf="@+id/button12"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button19"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_6"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button18"
+        app:layout_constraintTop_toBottomOf="@+id/button14"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button20"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_sub"
+        android:textColor="#FFFFFF"
+        app:layout_constraintEnd_toEndOf="@+id/textView5"
+        app:layout_constraintStart_toEndOf="@+id/button19"
+        app:layout_constraintTop_toBottomOf="@+id/button15"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button14"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_9"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button12"
+        app:layout_constraintTop_toBottomOf="@+id/button9"
+        app:rippleColor="#DFDFDF" />
+
+    <Button
+        android:id="@+id/button12"
+        style="?android:attr/buttonBarButtonStyle"
+        android:layout_width="88.5dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#CECECE"
+        android:text="@string/calculater_8"
+        android:textColor="#FFFFFF"
+        app:layout_constraintStart_toEndOf="@+id/button11"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:rippleColor="#DFDFDF" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="38dp"
+        android:background="#EAEAEA"
+        android:gravity="center|end"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/calculater_enter_formula"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
